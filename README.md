@@ -30,4 +30,4 @@ From the multiple linear regression output, we can see that:
 
 Overall, this model does a decent job at predicting the variability in ```mpg``` but there is definitely room for improvement. Further, the slope of the model is also not 0 due to having a couple significant independent variables.
 
-## Next
+## Summary Statistics on Suspension Coils
