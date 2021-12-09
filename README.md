@@ -82,3 +82,12 @@ In the analysis above a one-sample t-test is used to determine whether there is 
 - T-test on Lot3: results shows a p-value of 0.04168. Meaning we do have sufficient evidence to reject the null hypothesis.
 
 ## Study Design: MechaCar vs Competition
+Safety ratings of MechaCar vehicles against its compeitors is a key reference point for a consumer when the begin considering buying a new vehicle. And each model year, every new vehicle is crashed tested by the National Highway Traffic Safety Administration (NHTSA). For this study, we'll assume that NHTSA grades each car on a scale of 0-100. With 100 being the most safe vehicle tested that year. Further, no two vehicles can have the same rating. Lastly, we'll assume each vehicle manufacturer produces 8-10 models each year. 
+
+The purpose of this study will be to compare MechaCar's fleet (all models produced that year) safety rating against the fleet safety ratings of its competitors. The data collected will be the NHTSA vehcle safety rating for the year. From this data we'll be able to determine the mean safety rating for all vehicles for the year and also each manufacturer's own mean safety rating. Using a one-sample t-test, we want to compare the mean safety rating of MechaCar against the mean safety rating of the vehicle model population.
+- Null Hypothesis: No statistical difference exists between the sample mean and the population mean.
+- Alternative Hypothesis: There exists a statistical difference between the sample mean and the population mean.
+- This analysis will use a confidence/significance level of 0.05 percent. Meaning if the t-test p-value is above this confidence level we will have sufficient evidence to reject the null hypothesis.
+
+The question being are asked is: is the difference between the mean of MechaCar's safety rating and all manufacturer's safety rating large enough to conclude there is a real difference between MechaCar and the population in terms of safety of vehicles.
+
