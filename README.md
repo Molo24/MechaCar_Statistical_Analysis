@@ -70,8 +70,15 @@ Setting up and performing the various t-tests:
 <br>
 ![t_test_lot3](https://user-images.githubusercontent.com/89284280/145321065-6fe4a7d8-36c1-4a07-a717-67758cdbdba2.JPG)
 
-### Results
 In the analysis above a one-sample t-test is used to determine whether there is statistical difference between the means of a sample dataset and a hypothesized, potential population dataset (set at 1,500 pounds per square inch).
+- Null Hypothesis: No statistical difference exists between the sample mean and the population mean (1,500).
+- Alternative Hypothesis: There exists a statistical difference between the sample mean and the population mean (1,500).
+- This analysis uses a confidence/significance level of 0.05 percent. Meaning if the t-test p-value is above this confidence level we will have sufficient evidence to reject the null hypothesis.
 
-    Null Hypothesis: No statistical difference exists between the sample mean and the population mean (1,500).
-    Alternative Hypothesis: There exists a statistical difference between the sample mean and the population mean (1,500).
+### Results
+- T-test of all manufacturing results shows a p-value of 0.06028. Meaning we do not have sufficient evidence to reject the null hypothesis and we assume therefore the two means are statistically similar.
+- T-test on Lot1: results shows a p-value of 1. Do not have sufficient evidence to reject the null hypothsis. This p-value indicates the both this group and population are very similar.
+- T-test on Lot2: results shows a p-value of 0.6072. Meaning we do not have sufficient evidence to reject the null hypothesis and we assume therefore the two means are statistically similar.
+- T-test on Lot3: results shows a p-value of 0.04168. Meaning we do have sufficient evidence to reject the null hypothesis.
+
+## Study Design: MechaCar vs Competition
