@@ -57,3 +57,21 @@ Descriptive statistics of each manufacturing Lot were caluclated:<br>
 As we can see from the analysis above, the variance of the population is within the 100 pounds per square inch requirement. However, when we look at the variance of the three subsets, Lot3 stands out with a variance over 100. This indicates that the results of Lot3 are far from the mean and far from each other.
 
 ## T-Tests on Suspension Coils
+Using the same ```Suspension_Coil.csv``` dataset, the next analysis uses t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
+
+### Analysis
+Setting up and performing the various t-tests:
+<br>
+![t_test_all](https://user-images.githubusercontent.com/89284280/145321036-dbc1a1fd-e105-41f8-ad87-3b674bdd3c9e.JPG)
+<br>
+![t_test_lot1](https://user-images.githubusercontent.com/89284280/145321042-50eaf843-cf76-44d2-9447-7ccde81f357b.JPG)
+<br>
+![t_test_lot2](https://user-images.githubusercontent.com/89284280/145321051-86754e00-6518-4a89-90cc-db536553019d.JPG)
+<br>
+![t_test_lot3](https://user-images.githubusercontent.com/89284280/145321065-6fe4a7d8-36c1-4a07-a717-67758cdbdba2.JPG)
+
+### Results
+In the analysis above a one-sample t-test is used to determine whether there is statistical difference between the means of a sample dataset and a hypothesized, potential population dataset (set at 1,500 pounds per square inch).
+
+    Null Hypothesis: No statistical difference exists between the sample mean and the population mean (1,500).
+    Alternative Hypothesis: There exists a statistical difference between the sample mean and the population mean (1,500).
